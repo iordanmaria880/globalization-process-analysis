@@ -1,0 +1,177 @@
+<mxfile host="app.diagrams.net" modified="2024-05-12T10:31:36.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2cFl2yAux5bZ_UFfhlqU" version="24.4.0" type="device">
+  <diagram name="Page-1" id="ycbn5AqUptwbGL2gxveO">
+    <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-1" value="Diagrama Use-Case Administrator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-2" value="Administratorul sistemului" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-3" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="229.5" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-4" value="Autentificare in sistem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-5" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="229.5" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-6" value="Configurarea sistemului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OglVZpW1ZWNzCTpw6pn7-6" target="OglVZpW1ZWNzCTpw6pn7-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-10" value="Actualizarea sistemului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-11" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="229.5" as="sourcePoint" />
+            <mxPoint x="190" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-12" value="Gestionarea conturilor utilizatorilor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-13" value="Sistemul bancar" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-14" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.906;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.573;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OglVZpW1ZWNzCTpw6pn7-13" target="OglVZpW1ZWNzCTpw6pn7-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="40" as="sourcePoint" />
+            <mxPoint x="230" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-17" value="Creare cont utilizator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-19" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="374.5" as="sourcePoint" />
+            <mxPoint x="480" y="374.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-20" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="374.5" as="sourcePoint" />
+            <mxPoint x="400" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-21" value="Stergere cont utilizator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-22" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="374.5" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-23" value="Blocare/Deblocare cont" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-24" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="374.5" as="sourcePoint" />
+            <mxPoint x="390" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-25" value="Modificare informatii cont utilizator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="655" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-26" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="554" y="484.5" as="sourcePoint" />
+            <mxPoint x="714" y="484.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-27" value="Modficarea bazei de date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="449.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.3;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OglVZpW1ZWNzCTpw6pn7-17" target="OglVZpW1ZWNzCTpw6pn7-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="374.5" as="sourcePoint" />
+            <mxPoint x="710" y="374.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-29" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="740" y="100" as="sourcePoint" />
+            <mxPoint x="900" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="90" />
+              <mxPoint x="590" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-30" value="Utilizator" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-31" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.573;exitY=0.723;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OglVZpW1ZWNzCTpw6pn7-30" target="OglVZpW1ZWNzCTpw6pn7-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="sourcePoint" />
+            <mxPoint x="240" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-32" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="229.5" as="sourcePoint" />
+            <mxPoint x="220" y="761.5999755859375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-33" value="Monitorizarea tranzactiilor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="759.9999755859375" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="794.5" as="sourcePoint" />
+            <mxPoint x="460" y="794.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-35" value="Vizualizare tranzactii" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-38" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="794.5" as="sourcePoint" />
+            <mxPoint x="660" y="794.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-39" value="Analizare tranzactii" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="759.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-41">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="794" as="sourcePoint" />
+            <mxPoint x="890" y="794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-41" value="Generare rapoarte tranzactii" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="759" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OglVZpW1ZWNzCTpw6pn7-42" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.774;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OglVZpW1ZWNzCTpw6pn7-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="100" as="sourcePoint" />
+            <mxPoint x="890" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="100" />
+              <mxPoint x="880" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

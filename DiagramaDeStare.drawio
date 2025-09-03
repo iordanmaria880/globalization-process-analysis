@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2024-05-12T10:56:47.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="B-VWdA7iCx4-_hH4Tgv4" version="24.4.0" type="device">
+  <diagram name="Page-1" id="1IjkbLzuVJeLkB_OdVSV">
+    <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="170" as="sourcePoint" />
+            <mxPoint x="90" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-5" target="ZgATVTnrQsKgNOu0toK0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-5" value="Initializare tranzactie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-7" target="ZgATVTnrQsKgNOu0toK0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-7" value="Verificare tranzactie" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-9" target="ZgATVTnrQsKgNOu0toK0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-9" value="Procesare tranzactie" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-11" value="Tranzactie in curs de asteptare" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-20" value="" style="shape=link;html=1;rounded=0;width=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="900" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZgATVTnrQsKgNOu0toK0-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-23" target="ZgATVTnrQsKgNOu0toK0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-23" value="Confirmarea tranzactiei" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-24" value="Finalizarea tranzactiei" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-24" target="ZgATVTnrQsKgNOu0toK0-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="740" as="sourcePoint" />
+            <mxPoint x="560" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-27" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="675" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZgATVTnrQsKgNOu0toK0-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="330" as="sourcePoint" />
+            <mxPoint x="800" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-30" value="Anulare tranzactie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgATVTnrQsKgNOu0toK0-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgATVTnrQsKgNOu0toK0-30" target="ZgATVTnrQsKgNOu0toK0-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="600" as="sourcePoint" />
+            <mxPoint x="930" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

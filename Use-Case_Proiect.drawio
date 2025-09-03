@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" modified="2024-05-12T10:14:51.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TDIo4HE10ejSBVyohmPo" version="24.4.0" type="device">
+  <diagram name="Page-1" id="gto04WxFsXbRrR5Gdua7">
+    <mxGraphModel dx="1290" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-1" value="Diagrama Use-Case Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-14" value="Introducerea detaliilor transferului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630.14" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="490" width="550.14" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-16" value="" style="group" vertex="1" connectable="0" parent="lODPgptaAeK7oqKLcJ3B-18">
+          <mxGeometry width="550.14" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-2" value="Clientul" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="lODPgptaAeK7oqKLcJ3B-16">
+          <mxGeometry y="5" width="30.00020070446207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-3" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="lODPgptaAeK7oqKLcJ3B-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20.000133802974712" y="34.5" as="sourcePoint" />
+            <mxPoint x="100.00066901487357" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-12" value="Transfer de bani" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lODPgptaAeK7oqKLcJ3B-16">
+          <mxGeometry x="320.0021408475954" width="140.00093662082298" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-17" value="" style="group" vertex="1" connectable="0" parent="lODPgptaAeK7oqKLcJ3B-18">
+          <mxGeometry x="20" y="34.5" width="220" height="150.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-7" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="lODPgptaAeK7oqKLcJ3B-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="90" y="100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-8" value="Selectarea activitatii/optiunii dorite" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lODPgptaAeK7oqKLcJ3B-17">
+          <mxGeometry x="80" y="80.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-11" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="lODPgptaAeK7oqKLcJ3B-17" target="lODPgptaAeK7oqKLcJ3B-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="115" as="sourcePoint" />
+            <mxPoint x="330" y="20.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-4" value="Autentificare in cont" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lODPgptaAeK7oqKLcJ3B-17">
+          <mxGeometry x="80" y="-24.5" width="120" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-29" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="lODPgptaAeK7oqKLcJ3B-18" target="lODPgptaAeK7oqKLcJ3B-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-30" value="Plata de facturi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lODPgptaAeK7oqKLcJ3B-18">
+          <mxGeometry x="340" y="115" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-45" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="lODPgptaAeK7oqKLcJ3B-18" target="lODPgptaAeK7oqKLcJ3B-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="149.5" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-19" value="Sistemul bancar" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="990" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-25" value="Serviciul de notificari" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-27" value="Notificarea situatiei actuale a soldului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="489.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-28" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.627;entryY=0.006;entryDx=0;entryDy=0;exitX=0.48;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="lODPgptaAeK7oqKLcJ3B-25" target="lODPgptaAeK7oqKLcJ3B-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-33" value="Introducere suma si detalii plata&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630.14" y="605" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-42" value="Sistem de procesare plati" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-46" value="Verificarea soldului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="880" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-50" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="524.5" as="sourcePoint" />
+            <mxPoint x="630" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-52" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="639.5" as="sourcePoint" />
+            <mxPoint x="630" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-54" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="500" as="sourcePoint" />
+            <mxPoint x="630" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-55" value="Efectuare transfer de bani cu taxa de urgenta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-56" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770.14" y="524.5" as="sourcePoint" />
+            <mxPoint x="930.14" y="524.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-57" value="Confirmare transfer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="839.9999999999999" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-59" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;exitX=0.347;exitY=0.747;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.643;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lODPgptaAeK7oqKLcJ3B-19" target="lODPgptaAeK7oqKLcJ3B-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1081" y="430" as="sourcePoint" />
+            <mxPoint x="1241" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-60" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="524.5" as="sourcePoint" />
+            <mxPoint x="1140" y="524.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-61" value="Procesarea transferului" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="489.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-62" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;exitX=0.627;exitY=0.787;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.754;entryY=0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lODPgptaAeK7oqKLcJ3B-42" target="lODPgptaAeK7oqKLcJ3B-61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1310.0000000000002" y="309.99999999999994" as="sourcePoint" />
+            <mxPoint x="1421.99" y="465.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-63" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="524" as="sourcePoint" />
+            <mxPoint x="1370" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-64" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="770.14" y="639.5" as="sourcePoint" />
+            <mxPoint x="840" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-66" value="Confirmare plata" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="605" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-67" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-68">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="639.5" as="sourcePoint" />
+            <mxPoint x="1140" y="639.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-68" value="Procesarea platii" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="604.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-70" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.094;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="639.5" as="sourcePoint" />
+            <mxPoint x="1300" y="639.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-72" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-66">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1000" y="300" as="sourcePoint" />
+            <mxPoint x="1160" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-73" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.943;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lODPgptaAeK7oqKLcJ3B-68">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="300" as="sourcePoint" />
+            <mxPoint x="1380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lODPgptaAeK7oqKLcJ3B-74" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.769;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lODPgptaAeK7oqKLcJ3B-46" target="lODPgptaAeK7oqKLcJ3B-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="945" as="sourcePoint" />
+            <mxPoint x="1346" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
