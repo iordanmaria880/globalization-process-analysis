@@ -1,5 +1,5 @@
 # analiza-procesului-de-globalizare
 
-Acest proiect analizează impactul procesului de globalizare asupra economiei românești, cu accent pe piața muncii. Documentul include o parte teoretică și o serie de instrumente de analiză economică (PESTELE, POPIT, SWOT, Porter’s Five Forces, Matricea BCG, Matricea McKinsey, analiza MoSCoW și indicatori macroeconomici), prin care sunt identificate efectele globalizării asupra structurii și dinamicii pieței muncii din România.
+This project examines the impact of globalization on the Romanian economy, focusing on the labor market. It combines a theoretical overview with economic analysis tools (PESTELE, POPIT, SWOT, Porter’s Five Forces, BCG Matrix, McKinsey Matrix, MoSCoW analysis, and macroeconomic indicators) to identify globalization’s effects on the structure and dynamics of Romania’s labor market.
 
-Proiectul propune, de asemenea, soluții și modalități de adaptare a sistemului economic național la schimbările determinate de globalizare, oferind concluzii și direcții strategice pentru o dezvoltare sustenabilă.
+The study also proposes solutions and strategies for adapting the national economic system to globalization-driven changes, offering conclusions and guidance for sustainable development.
